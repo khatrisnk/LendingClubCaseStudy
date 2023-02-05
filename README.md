@@ -1,52 +1,47 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
 
+## Problem Statement
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+Company and investors are not able to identify the applicants profile properly before loan approval and hence they are facing both business and financial loss.
 
-<!-- You can include any other section that is pertinent to your problem -->
+---
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+## Objective
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+---
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Data Sourcing
 
+Campany already given the dataset contains the information about past loan applicants and whether they ‘defaulted’ or not.
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+loan.csv file present at the root of the folder.
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+---
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+## Libraries Used
 
+1. Pandas
+2. Numpy
+3. Matplotlib
+4. Seaborn
+5. missingno
+
+---
+
+## Recommendations
+
+1. More than 4.5K defaulters are from MORTGAGE and RENT category of home ownership. It will be great to check the DTI and purpose for these categories before approval.
+2. More than 16K loans are not verified. It will be benifial to the comapny if they can reduce the number by strenthening the verification process.
+3. People are taking loan mostly for debt consolidation (one of the category in pupose). The number is more than ~17K out of ~37K. This is a huge number. Company should think of their business approch. The number of loan for other purpose e.g. house, renewable energy and education is very low.
+4. More than ~1K borrowers become defaulters out of ~7K borrowers for 10+ years category of employment length. The ratio is 1 out of 7. It will be great to check the DTI and purpose for those application before approval.
+5. Approximately 13K loans belongs to category of less than year or more than 10 years. Please do proper verification before approval.
+6. There are more defaulters belongs to state CA, TX, FL, NY anf NJ as there are more loans from these state. Please do strenthen the process of verification in these states.
+7. DTI ratio should not be more than 13.5 to avoid defaulters.
+8. Average annual income should be greater than 58K (USD) to avoid defaulters.
+
+---
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [Siddhartha Khatri](https://github.com/khatrisnk) - feel free to contact me!
