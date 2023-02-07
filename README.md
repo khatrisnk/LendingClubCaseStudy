@@ -18,7 +18,7 @@ The aim is to identify patterns which indicate if a person is likely to default,
 
 ## Data Sourcing
 
-Campany already given the dataset contains the information about past loan applicants and whether they ‘defaulted’ or not.
+Company provided the dataset contains the information about past loan applicants and whether they ‘defaulted’ or not.
 
 ---
 
