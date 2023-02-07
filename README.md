@@ -22,6 +22,12 @@ Campany already given the dataset contains the information about past loan appli
 
 ---
 
+## Platform Used
+
+Kaggle
+
+---
+
 ## Libraries Used
 
 1. Pandas
